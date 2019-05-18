@@ -101,6 +101,7 @@ function bringBackImage(){
 
 													list = [];
 													document.getElementById("bgid").style.backgroundImage = 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Solid_white.svg/2000px-Solid_white.svg.png)';
+													document.getElementById('text').style.color = "black";
 													document.getElementById("footerid").style.display = "none";
 												}
 												else
