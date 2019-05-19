@@ -107,6 +107,7 @@ function bringBackImage(){
 												else
 												{
 													document.getElementById("bgid").style.backgroundImage = 'url(static/img/d.jpg)';
+													document.getElementById('text').style.color = "white";
 													document.getElementById("footerid").style.display = "block";
 												}
 										}
