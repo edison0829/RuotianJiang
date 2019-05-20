@@ -100,7 +100,7 @@ function bringBackImage(){
 														// console.log(count);
 
 															if (i < 6) {
-																$('#result_box').append("<div class=\"col-md-3\"  id=\"d\" ><div class=\" panel panel-default \"><div class=\"panel-heading\" style=\"background-color:#91ffa1;\">"+list[i].key["item"]["keywords"]+", "+list[i].key["item"]["keywords"]+", <br>"+list[i].key["item"]["keywords"]+"</div><div class=\"panel-body\" style = \"color:#000000;\"><p><b>Event: </b> "+list[i].key["item"]["keywords"]+", <br><b>tags: </b>"+list[i].key["item"]["keywords"]+".</p></div></div>")
+																$('#result_box').append("<div class=\"col-md-3\"  id=\"d\" ><div class=\" panel panel-default \"><div class=\"panel-heading\" style=\"background-color:#91ffa1;\">"+list[i].key["item"]["keywords"] +", <br>"+list[i].key["item"]["title"]+"</div><div class=\"panel-body\" style = \"color:#000000;\"><p> "+list[i].key["item"]["subtitle"]+", <br><b>Details: </b>"+list[i].key["item"]["detials"]+".</p></div></div>")
 														}
 													}
 
