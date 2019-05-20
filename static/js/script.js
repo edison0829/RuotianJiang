@@ -82,10 +82,11 @@ function bringBackImage(){
 															cur_sim = Math.round(similarity(query,values[j].toString())*10000)/100;
 															simi.push(cur_sim)
 															}
-														var s_value = simi.sort((a,b) => a>b).slice(0,5);
+														var s_value = simi.sort((a,b) => a>b).slice(0,3);
 														var s_sum = s_value.reduce(function(a,b){return a+b;},0);
 														list.push({key:data[i],value:s_sum});
 														}
+													list.sort((a, b) => (a.value < b.value) ? 1 : -1)
 													console.log(list);
 													for(var i in list)
 													{
