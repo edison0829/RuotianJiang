@@ -16,11 +16,11 @@ body {
 	color: #ffffff;
 	background: #fff;
 	min-height: 100%;
+	height: 100%;
 	position: relative;
 	margin: 0;
 	padding: 0;
 }
-
 
 a {
 	color: #f7da02;
@@ -235,7 +235,6 @@ button {
 
 
 /*-------- Main Page - Search Section --------*/
-
 .bgimg{
 	background-image: url('../img/d.jpg');
 	background-size:     cover;                      /* <------ */
